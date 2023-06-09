@@ -487,9 +487,10 @@ img {
 
 .cover-block {
   position: relative;
+  overflow: hidden;
 }
 
-.cover-block:hover .portfolio-cover-text {
+.cover-block:hover .portfolio-cover-block {
   transform: translate(0);
 }
 
@@ -506,6 +507,7 @@ img {
   left: 0;
   border: 1px solid var(--border-color);
   transform: translateY(100%);
+  transition: transform var(--transition);
 }
 
 .portfolio-cover-text {
