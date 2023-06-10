@@ -183,7 +183,8 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* max-width: 1440px; */
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .hero-container {
@@ -651,7 +652,12 @@ img {
   border: none;
 }
 
-.modal-close:hover {
+.modal-close {
+  transition: fill var(--transition);
+}
+
+.modal-close:hover,
+.modal-close:focus {
   fill: var(--main-color-text);
 }
 
