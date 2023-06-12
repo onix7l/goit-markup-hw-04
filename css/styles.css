@@ -436,7 +436,7 @@ img {
   align-items: center;
   justify-content: center;
   color: var(--border-color-additional);
-  border-color: #404bbf;
+  /* border-color: #404bbf; */
   transition: border-color var(--transition), color var(--transition);
 }
 
