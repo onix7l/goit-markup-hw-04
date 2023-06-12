@@ -670,6 +670,11 @@ img {
   transition: fill var(--transition);
 }
 
+.modal-btn:hover .modal-close,
+.modal-btn:hover .modal-close {
+  fill: var(--main-color-text);
+}
+
 .modal-close {
   transition: fill var(--transition);
 }
