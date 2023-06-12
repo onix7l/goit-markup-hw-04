@@ -340,9 +340,9 @@ img {
   color: var(--link-unactive);
 }
 
-.team-social-block {
+/* .team-social-block {
   padding: 32px 0;
-}
+} */
 
 .team-social-list {
   display: flex;
@@ -370,7 +370,7 @@ img {
 }
 
 .worker {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .customers {
