@@ -413,7 +413,7 @@ img {
 }
 
 .customers-item {
-  padding: 16px 32px;
+  /* padding: 16px 32px; */
   border: 1px solid var(--border-color-additional);
   border-radius: 4px;
   cursor: pointer;
@@ -437,6 +437,7 @@ img {
   justify-content: center;
   color: var(--border-color-additional);
   border-color: #404bbf;
+  transition: border-color var(--transition), color var(--transition);
 }
 
 .customers-item-link:hover,
