@@ -667,11 +667,11 @@ img {
 .modal-btn:focus {
   background: var(--link-active);
   border: none;
-  transition: fill var(--transition);
+  /* transition: fill var(--transition); */
 }
 
 .modal-btn:hover .modal-close,
-.modal-btn:hover .modal-close {
+.modal-btn:focus .modal-close {
   fill: var(--main-color-text);
 }
 
