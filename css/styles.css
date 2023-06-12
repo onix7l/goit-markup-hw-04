@@ -352,21 +352,37 @@ img {
 }
 
 .team-item-icon {
-  background-color: var(--header-logo-blue);
+  /* background-color: var(--header-logo-blue); */
   padding: 12px;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   width: 40px;
   height: 40px;
   cursor: pointer;
   transition: background-color var(--transition);
 }
 
-.team-item-icon:hover,
-.team-item-icon:focus {
+.team-item-link {
+  width: 100%;
+  height: 100%;
+  background-color: var(--header-logo-blue);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-item-link:hover,
+.team-item-link:focus {
   background-color: var(--link-active);
 }
 
+/* .team-item-icon:hover,
+.team-item-icon:focus {
+  background-color: var(--link-active);
+} */
+
 .team-icon {
+  fill: var(--background-color-additional);
 }
 
 .worker {
