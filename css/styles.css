@@ -347,7 +347,7 @@ img {
 .team-social-list {
   display: flex;
   gap: 24px;
-  padding-bottom: 32px;
+  /* padding-bottom: 32px; */
   justify-content: center;
 }
 
