@@ -358,7 +358,7 @@ img {
   width: 40px;
   height: 40px;
   cursor: pointer;
-  /* transition: background-color var(--transition); */
+  transition: background-color var(--transition);
 }
 
 .team-item-link {
@@ -660,18 +660,20 @@ img {
   align-items: center;
   justify-content: center;
   padding: 0;
-  transition: background-color var(--transition), border 250ms var(--transition);
+  transition: background-color var(--transition);
+  /* transition: background-color var(--transition), border 250ms var(--transition); */
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
   background: var(--link-active);
   border: none;
-}
-
-.modal-close {
   transition: fill var(--transition);
 }
+
+/* .modal-close {
+  transition: fill var(--transition);
+} */
 
 .modal-close:hover,
 .modal-close:focus {
