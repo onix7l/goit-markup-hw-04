@@ -494,7 +494,7 @@ img {
 
 .footer-item-icon {
   background-color: var(--header-logo-blue);
-  padding: 8px;
+  /* padding: 8px; */
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -515,6 +515,10 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.footer-icon {
+  fill: var(--background-color-additional);
 }
 
 .footer-social-link:hover,
